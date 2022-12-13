@@ -7,7 +7,7 @@
 
 body {
   background-color: rgb(0, 39, 118);
-  /* width: 600px; */
+  width: 600px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  /* height: 100px; */
+  height: 100px;
   border-radius: 10px;
   background-color: rgb(0, 156, 59);
   font-weight: bold;
@@ -31,9 +31,35 @@ footer {
   color: #ffdf00;
   position: absolute;
   bottom: 10px;
-  width: 300px;
 }
 
 footer a {
   color: #ffdf00;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(12, 86, 235);
+  }
+  body {
+    /* background-color: rgb(0, 39, 118); */
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 0 35px 0 36px; */
+  }
+
+  .container {
+    height: 130px;
+    border-radius: 5px;
+    background-color: rgb(0, 156, 59);
+    font-weight: bold;
+    color: #fff;
+    /* padding: 40px 0; */
+    font-size: 18px;
+  }
 }
