@@ -28,8 +28,12 @@ body {
 }
 
 footer {
-  color: #fff;
+  color: #ffdf00;
   position: absolute;
   bottom: 10px;
   width: 300px;
+}
+
+footer a {
+  color: #ffdf00;
 }
